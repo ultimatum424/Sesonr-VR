@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Books list</title>
+</head>
+<body>
+<form action="Servlet" method="post">
+    Title: <input type="text" name="title"> <br/>
+    Author: <input type="text" name="author"> <br/>
+    Release date: <input type="date" name="calendar"> <br/>
+    Number of pages: <input type="number" name="num" value="0" min="0" step="1" max="32767"> <br/>
+    New book: <input type="checkbox" name="is_new">  <br/>
+    <input type="submit" value="Add new book">
+</form>
+
+</form>
+<form action="/Servlet" method="get">
+    <button>Show books</button>
+</form>
+</body>
+</html>
